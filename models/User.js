@@ -21,14 +21,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: false,
     },
-    country: {
-      type: String,
-      required: false,
-    },
-    city: {
-      type: String,
-      required: false,
-    },
+
     isVerified: {
       type: Boolean,
       default: false,
@@ -38,7 +31,7 @@ const userSchema = new mongoose.Schema(
     },
     verificationTokenExpiry: {
       type: Date,
-    }
+    },
   },
   {
     timestamps: true,

@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-const JWT_SECRET = "sampler"; // In production, use environment variable
+const JWT_SECRET = "sampler";
 
 export const authenticateToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
@@ -17,4 +17,4 @@ export const authenticateToken = (req, res, next) => {
     req.user = user;
     next();
   });
-}; 
+};

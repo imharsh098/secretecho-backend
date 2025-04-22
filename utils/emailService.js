@@ -99,7 +99,7 @@ export const sendVerificationEmail = async (email, token) => {
         </p>
         
         <div class="footer">
-            <p>© 2024 CA Saab. All rights reserved.</p>
+            <p>© 2025 Secret Echo. All rights reserved.</p>
             <p>If you're having trouble, copy and paste this link into your browser:</p>
             <p>${verificationLink}</p>
         </div>

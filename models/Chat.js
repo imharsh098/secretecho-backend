@@ -8,7 +8,10 @@ const chatSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    flowiseChatId: { type: String },
+    isActive: {
+      type: Boolean,
+      default: true,
+    },
     messages: [
       {
         content: {
