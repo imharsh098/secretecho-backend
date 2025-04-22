@@ -24,7 +24,7 @@ A robust backend service for the SecretEcho chat application, built with Node.js
 
 ```bash
 git clone <repository-url>
-cd secret-echo-backend
+cd secretecho-backend
 ```
 
 2. Install dependencies:
